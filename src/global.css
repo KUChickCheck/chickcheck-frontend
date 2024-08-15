@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;  /* Make the body take the full height of the viewport */
-    margin: 0;      /* Remove default margin */
-  }
-  
-  #app {
-    height: 852px;
-    width: 393px;
-    border: 1px solid black;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Make the body take the full height of the viewport */
+  margin: 0;
+  /* Remove default margin */
+}
+
+#app {
+  font-family: "Poppins", sans-serif;
+  height: 852px;
+  width: 393px;
+  border: 1px solid black;
+  padding: 0px 16px;
+}
+
+h4 {
+  font-size: 18px !important;
+  line-height: 27px !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h5 {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container-fluid {
+  margin-top: 1rem;
+  padding: 0px !important;
+}

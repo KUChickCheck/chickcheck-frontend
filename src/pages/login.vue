@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex align-items-center justify-content-center vh-100">
+  <div class="d-flex align-items-center justify-content-center" style="height:100%;">
     <div class="col-md-6">
       <h1 class="text-center mb-4">Login</h1>
       <form @submit.prevent="login" class="d-flex gap-4 flex-column">
@@ -52,8 +52,8 @@ export default {
           username: this.username,
           password: this.password,
         });
+        console.log(response)
         const token = response.data.token;
-        console.log(token)
         localStorage.setItem("token", token);
         this.$router.push("/");
       } catch (err) {
